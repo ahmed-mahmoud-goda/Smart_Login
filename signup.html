@@ -1,0 +1,35 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container w-60 text-center my-5 p-5">
+        <h1 class="text-info fw-semibold ">Smart Login System</h1>
+        <input type="text" class="w-100 rounded-2 p-1 bg-transparent text-white my-3" name="name" id="name" placeholder="Enter Your Name">
+        <div class="alert alert-danger d-none" id="invalid1" role="alert">
+             Invalid Name, Name should be 3 or more chars.
+          </div>
+        <input type="text" class="w-100 rounded-2 p-1 bg-transparent text-white my-3" name="email" id="email" placeholder="Enter Your Email">
+        <div class="alert alert-danger d-none" id="invalid2" role="alert">
+            Invalid Email, Email should look like this (example@gmail.com).
+         </div>
+        <input type="password" class="w-100 rounded-2 p-1 bg-transparent text-white my-3" name="password" id="password" placeholder="Enter Your Password">
+        <div class="alert alert-danger d-none" id="invalid3" role="alert">
+            Invalid Password, Password should be 5 or more chars.
+         </div>
+        <p class="text-success d-none" id="status">Success</p>
+        <button class="btn btn-outline-info w-100 my-3" id="signup">Signup</button>
+        <p class="text-white">You have an account? <a href="index.html">Signin</a></p>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
